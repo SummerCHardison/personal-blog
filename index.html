@@ -5,4 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Blog</title>
+  <link rel="stylesheet" href="./assets/css/styles.css"/>
+  <link rel="stylesheet" href="./assets/css/form.css"/>
 </head>
+
+<body>
+  <header>
+    <button id="themeToggle">toggle theme</button>
+  </header>
+
+  <form>
+    <h2>Write a Blog Post</h2>
+    <div>
+      <label for="userName">Username:</label><br>
+      <input type="text" id="userName" placeholder="Enter your username">
+    </div>
+    <div>
+      <label for="title">Blog Title:</label>
+      <input type="text" id="title" placeholder="Enter your blog title">
+    </div>
+    <section>
+      <label for="content">Blog Content:</label>
+      <input type="text" id="content" placeholder="Enter your blog content">
+      </div>
+      <div>
+        <button id="submit" type="submit">Submit</button>
+      </div>
+  </form>
+
+  <script src="./assets/javascript/logic.js"></script>
+  <script src="./assets/javascript/form.js"></script>
+</body>
+
+<footer>
+  <a href="./blog.html">View Blog Posts</a>
+</footer>
+
+</html>
